@@ -1,2 +1,2 @@
 # To-Do-Apps-ProjectTest
-APLIKASI BELUM SELESAI DIBUAT JANGAN DI NILAI DULU. 
+PROJECT SELESAI DIBUAT LINK DEPLOY <a href="https://to-do-apps-project-test.vercel.app/">Todo</a>
