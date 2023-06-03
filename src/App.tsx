@@ -1,16 +1,25 @@
-import Card from "./component/LabelTask";
+
+import { Provider } from 'react-redux';
+import store from '../store';
+
 import Input from "./component/Input";
 import Layout from "./pages/Layout";
-import LabelTask from "./component/LabelTask";
+import TaskList from "./component/TaskList";
+
 
 function App() {
   return (
     <div data-theme="dark">
-      <Layout>
-        <Input/>
-        <LabelTask/>
-      </Layout>
-       
+      <Provider store={store}>
+
+        <Layout>
+          <Input />
+          {/* <NewTaskForm/> */}
+          <TaskList />
+
+        </Layout>
+      </Provider>
+
     </div>
   );
 }
